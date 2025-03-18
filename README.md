@@ -1,4 +1,4 @@
-# hHackTheBox Retired Machine - Cap 
+# HackTheBox Retired Machine - Cap (Linux)
 
 ## Enumeration
 ```
